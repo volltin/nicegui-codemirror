@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "nicegui-code-mirror"
+version = "0.1.0"
+description = "A simple code editor based on CodeMirror element for nicegui"
+authors = ["Volltin <volltin@live.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+nicegui = "^1.4.18"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
